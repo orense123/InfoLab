@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+             /* Customize the background property below */
+             background: linear-gradient(to bottom, #3498db, #1abc9c);
+        }
+
+        header {
+            background-color: #05f451;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        #profile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 5em;
+            border-radius: 10px;
+        }
+
+        #profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        #details {
+            flex-grow: 1;
+            margin-left: 2em;
+        }
+
+        #dashboard-buttons {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2em;
+        }
+
+        .button {
+            background-color: #242527;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0.5em;
+            cursor: pointer;
+        }
+
+        #continue-button {
+            background-color: #34a853;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Admin</h1>
+    </header>
+
+    <div id="profile">
+        <img src="image/sir rodge.jpg" alt="Admin Profile">
+        <div id="details">
+            <h2>Welcome, Sir Rodge!</h2>
+            <p>Email: <a href="rodgedetorres@gmail.com">rodgedetorres@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div id="dashboard-buttons">
+        <a href="index1.html" class="button" id="continue-button">Continue</a>
+    </div>
+
+</body>
+</html>
